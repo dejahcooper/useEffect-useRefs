@@ -1,0 +1,58 @@
+.App {
+  min-height: 100vh;
+  padding: 2rem;
+  text-align: center;
+  background: #0a1128;
+  color: #ffffff;
+}
+
+.App-subtitle {
+  margin-top: 0.5rem;
+  color: #cbd5f5;
+}
+
+.App-controls {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+
+.App-controls button {
+  padding: 0.75rem 1.5rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #ff9f1c;
+  color: #1e1e1e;
+}
+
+.App-controls button:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.App-remaining {
+  font-weight: bold;
+}
+
+.App-error {
+  color: #ff6b6b;
+  font-weight: bold;
+}
+
+.App-card-area {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 2rem;
+}
+
+.App-card {
+  width: 110px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  border-radius: 6px;
+}
